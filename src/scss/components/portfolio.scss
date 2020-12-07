@@ -1,0 +1,289 @@
+section {
+    &:nth-of-type(3) {
+        background: #f5f5f5;
+
+        .container {
+            padding: 0;
+        }
+
+        .filter-wrap {
+            position: relative;
+            white-space: nowrap;
+        }
+
+        .filter {
+            cursor: pointer;
+            font-size: 6pt;
+            text-transform: uppercase;
+            font-weight: 600;
+            padding: 0 20px;
+            transition: background-color 0.5s;
+        }
+
+        .float-bar {
+            @include pos($top: 0, $left: 30px, $bottom: 0);
+            background: $secondary;
+            border-radius: 1px;
+            height: 25px;
+            margin: auto 0;
+            overflow: hidden;
+            position: absolute;
+            transition: all 0.5s ease-in-out;
+
+            .row {
+                @include pos($top: 0, $left: -30px, $bottom: 0);
+                margin: auto 0;
+                transition: left 0.5s ease-in-out;
+                .filter {
+                    color: #fff;
+                }
+            }
+        }
+
+        .text {
+            @include pos($top: 0, $left: 0);
+            width: 100%;
+        }
+
+        #gallery {
+            margin: 20px 0;
+
+            .text,
+            .button {
+                color: $primary-darkest;
+                opacity: 0;
+                text-align: center;
+                transition: all 0.3s ease-in-out;
+                z-index: 2;
+
+                .bold {
+                    font-size: 16pt;
+                }
+            }
+
+            .button {
+                @include pos($bottom: 0, $left: 0, $right: 0);
+                border: 2px solid $secondary;
+                font-size: 13pt;
+                margin: 0 auto;
+                padding: 7px 0;
+                width: 170px;
+            }
+
+            .mix {
+                display: none;
+                position: relative;
+
+                .waypoint {
+                    background: #fff;
+                }
+
+                .button {
+                    &:hover {
+                        background: $secondary;
+                        color: #fff;
+                    }
+                }
+
+                @for $i from 1 through 12 {
+                    &:nth-child(#{$i}) {
+                        .card {
+                            background: url("../img/thumb-#{$i}.jpg") center center/cover;
+                        }
+                    }
+                }
+
+                .card {
+                    height: 240px;
+                    max-width: 100%;
+                    transition: opacity 0.5s;
+                    width: calc(50vw - 8px);
+                }
+
+                &:hover {
+                    .card {
+                        opacity: 0;
+                    }
+
+                    .text {
+                        cursor: default;
+                        opacity: 1;
+                        top: 24%;
+                    }
+
+                    .button {
+                        bottom: 24%;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// MODAL
+.modal-wrap {
+    height: 100vh;
+    pointer-events: none;
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+
+    .mask {
+        background: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        transition: opacity 0.3s;
+        width: 100%;
+    }
+
+    .modal {
+        align-items: flex-start;
+        background: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        box-sizing: border-box;
+        color: #333;
+        height: 100vh;
+        opacity: 0;
+        position: relative;
+        text-align: left;
+        transform: scale(0.8);
+        transition: all 0.3s;
+    }
+
+    .close {
+        bottom: 25px;
+        color: #bbb;
+        cursor: pointer;
+        font-size: 20pt;
+        font-weight: 800;
+        position: absolute;
+        right: 10px;
+    }
+
+    .info-box {
+        border-top: 3px solid $primary-darkest;
+        box-sizing: border-box;
+        color: #444;
+        padding: 15px 10px 85px 10px;
+    }
+
+    .title {
+        font-family: "Raleway-bold";
+        font-size: 16pt;
+        line-height: 20pt;
+    }
+
+    .tag {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        color: #c0c0c0;
+        display: block;
+        font-family: "Raleway-bold";
+        font-size: 8pt;
+        font-weight: 300;
+        padding-bottom: 15px;
+    }
+
+    .detail {
+        font-size: 9pt;
+        line-height: 14pt;
+        margin-top: 13px;
+    }
+
+    .mdi-open-in-new {
+        font-size: 11pt;
+        left: -10px;
+        position: relative;
+    }
+
+    .button {
+        background: $secondary;
+        border: 0;
+        bottom: 20px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 10pt;
+        font-weight: 600;
+        left: 10px;
+        padding: 11px 30px;
+        pointer-events: none;
+        position: absolute;
+        transition: all 0.5s;
+        visibility: hidden;
+
+        &.visible {
+            pointer-events: initial;
+            visibility: visible;
+        }
+
+        &:hover {
+            background: #fff;
+            color: $secondary;
+        }
+    }
+
+    .carousel {
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    &.visible {
+        pointer-events: initial;
+        .modal {
+            opacity: 1;
+            transform: scale(1);
+        }
+        .mask {
+            opacity: 1;
+        }
+    }
+}
+
+@media screen and (min-width: 960px) {
+    section {
+        &:nth-of-type(3) {
+            #gallery .mix .card {
+                width: 390px;
+            }
+            .filter {
+                font-size: 13pt;
+                margin: 0 25px;
+                padding: 0 40px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    section {
+        &:nth-of-type(3) {
+            .filter {
+                font-size: 11pt;
+                margin: 0 15px;
+                padding: 0 30px;
+            }
+
+            .float-bar {
+                height: 30px;
+            }
+
+            #gallery {
+                .mix {
+                    .card {
+                        height: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    section:nth-of-type(3) {
+        #gallery .mix .card {
+            width: 100vw;
+        }
+    }
+}

@@ -1,0 +1,192 @@
+section {
+    &:nth-of-type(2) {
+        .label-wrap {
+            .label {
+                margin: 20px 0 10px 0;
+            }
+        }
+
+        .bullet-wrap {
+            height: 200px;
+            justify-content: flex-start;
+            padding: 0 7px;
+        }
+
+        .highlight {
+            color: #009ada;
+        }
+
+        .up-arrow {
+            height: 30px;
+            margin: 15px 0;
+        }
+
+        .skills-wrapper {
+            align-items: flex-start;
+            width: 100%;
+
+            .me {
+                height: 200px;
+            }
+
+            .label {
+                margin: 20px 0 15px 0;
+            }
+        }
+
+        .hexagon i {
+            color: #fff;
+            font-size: 34pt;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 20px;
+            z-index: 1;
+        }
+
+        .bars-wrap {
+            margin: 50px auto 0 auto;
+            max-width: 90%;
+            width: calc(100% - 15px);
+
+            &:not(.animated) {
+                .fill {
+                    width: 0 !important;
+                }
+            }
+        }
+
+        .bar {
+            align-items: flex-end;
+            background-color: #eee;
+            color: #666;
+            font-size: 7pt;
+            height: 22px;
+            margin: 0 0 12px 0;
+            position: relative;
+
+            // &:nth-child(1) {
+            //     .fill {
+            //         width: 80%;
+            //     }
+            // }
+
+            @for $i from 1 through 13 {
+                &:nth-child(#{$i}) .fill {
+                    transition: #{1 + ($i * 0.1)}s 0.2s width ease-in-out;
+                }
+            }
+
+            span {
+                display: none;
+            }
+
+            &.fill {
+                @include pos($top: 0, $left: 0);
+                background-color: $primary-dark;
+                opacity: 1;
+                padding: 0;
+            }
+
+            .tag {
+                @include pos($top: 0, $left: 0);
+                background-color: $primary;
+                color: #fff;
+                height: 100%;
+                width: 110px;
+                width: 70px;
+            }
+
+            &.secondary {
+                background-color: $secondary-dark;
+                .tag {
+                    background-color: $secondary;
+                }
+            }
+
+            span {
+                padding: 0 15px 0 0;
+                z-index: 1;
+            }
+        }
+    }
+}
+
+/****************************
+*Media
+****************************/
+
+@media screen and (min-width: 960px) {
+    section {
+        &:nth-of-type(2) {
+            .bars-wrap {
+                margin: 0 0 0 0;
+            }
+
+            .skills-wrapper {
+                margin: 50px 0 0 0;
+
+                .me {
+                    margin: 0;
+                }
+            }
+
+            .bar {
+                max-width: 90%;
+            }
+
+            .bullet-wrap {
+                height: intial;
+                margin: 0;
+                padding: 0 10px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    section {
+        &:nth-of-type(2) {
+            .label-wrap {
+                .label {
+                    margin: 15px 0 5px 0;
+                }
+                > div {
+                    padding: 0 15px;
+                }
+            }
+
+            .bullet-wrap {
+                height: 230px;
+            }
+
+            .skills-wrapper {
+                > .flex:first-child {
+                    padding: 0 50px 0 50px;
+                }
+
+                .me {
+                    height: 250px;
+                }
+            }
+
+            .bar {
+                font-size: 11pt;
+                height: 28px;
+                margin: 0 0 15px 0;
+
+                span {
+                    display: initial;
+                }
+
+                .tag {
+                    width: 110px;
+                }
+            }
+
+            .hexagon i {
+                font-size: 40pt;
+            }
+        }
+    }
+}
