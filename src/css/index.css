@@ -39,6 +39,10 @@
   color: #aba398 !important; }
   .overflow_black-theme section:nth-of-type(2) .header {
     color: #aba398 !important; }
+  .overflow_black-theme section:nth-of-type(2) .bullet-wrap .hex-wrap .hexagon {
+    background: #039aa0 !important; }
+    .overflow_black-theme section:nth-of-type(2) .bullet-wrap .hex-wrap .hexagon .mdi {
+      color: #e8e6e3 !important; }
   .overflow_black-theme section:nth-of-type(2) .waypoint .flex {
     background: #222426 !important; }
     .overflow_black-theme section:nth-of-type(2) .waypoint .flex .bar {
@@ -499,7 +503,8 @@ nav {
     margin: auto 0;
     position: absolute;
     right: 15vw;
-    top: 0; }
+    top: 0;
+    cursor: pointer !important; }
   nav .active {
     color: #e31b6d; }
 

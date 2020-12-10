@@ -50,6 +50,18 @@
             color: rgb(171, 163, 152) !important;
         }
 
+        .bullet-wrap {
+            .hex-wrap {
+                .hexagon {
+                    background: #039aa0 !important;
+
+                    .mdi {
+                        color: rgb(232, 230, 227) !important;
+                    }
+                }
+            }
+        }
+
         .waypoint {
             .flex {
                 background: rgb(34, 36, 38) !important;
@@ -183,7 +195,7 @@
             }
         }
     }
-
+    // Modal for project
     .modal-wrap {
         .info-box {
             background: rgb(24, 26, 27) !important;
