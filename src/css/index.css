@@ -10,6 +10,110 @@
   font-family: "Raleway-bold";
   src: url("../fonts/Raleway-Bold.ttf"); }
 
+.overflow_black-theme * {
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear; }
+
+.overflow_black-theme section:nth-of-type(1) .flex .text {
+  color: #e8e6e3 !important; }
+  .overflow_black-theme section:nth-of-type(1) .flex .text .highlight {
+    color: #e7337c !important; }
+
+.overflow_black-theme section:nth-of-type(1) .flex .button {
+  border-color: #303436 !important; }
+  .overflow_black-theme section:nth-of-type(1) .flex .button:hover {
+    background: #039ba1 !important; }
+
+.overflow_black-theme section:nth-of-type(1) nav {
+  background: #161d26 !important;
+  color: #e8e6e3 !important; }
+  .overflow_black-theme section:nth-of-type(1) nav .page-link:hover {
+    color: #e7337c !important; }
+  .overflow_black-theme section:nth-of-type(1) nav .active {
+    color: #e7337c !important; }
+  .overflow_black-theme section:nth-of-type(1) nav .mdi-lightbulb {
+    color: #d58207 !important; }
+
+.overflow_black-theme section:nth-of-type(2) {
+  background: #181a1b !important;
+  color: #aba398 !important; }
+  .overflow_black-theme section:nth-of-type(2) .header {
+    color: #aba398 !important; }
+  .overflow_black-theme section:nth-of-type(2) .waypoint .flex {
+    background: #222426 !important; }
+    .overflow_black-theme section:nth-of-type(2) .waypoint .flex .bar {
+      background: #008186 !important; }
+    .overflow_black-theme section:nth-of-type(2) .waypoint .flex .fill .tag {
+      color: #e8e6e3 !important;
+      background: #039ba1 !important; }
+    .overflow_black-theme section:nth-of-type(2) .waypoint .flex span {
+      color: #aba398 !important; }
+
+.overflow_black-theme section:nth-of-type(3) {
+  background: #1e2021 !important;
+  color: #aba398 !important; }
+  .overflow_black-theme section:nth-of-type(3) .header {
+    color: #aba398 !important; }
+  .overflow_black-theme section:nth-of-type(3) .mix .bold {
+    color: #d1cdc7 !important; }
+  .overflow_black-theme section:nth-of-type(3) .mix .highlight {
+    color: #e7337c !important; }
+  .overflow_black-theme section:nth-of-type(3) .mix .button {
+    color: #aba398 !important;
+    border: 2px solid #e31b6d !important; }
+    .overflow_black-theme section:nth-of-type(3) .mix .button:hover {
+      background: #e31b6d !important;
+      color: #e8e6e3 !important; }
+
+.overflow_black-theme section:nth-of-type(4) {
+  background: #181a1b !important;
+  color: #aba398 !important; }
+  .overflow_black-theme section:nth-of-type(4) .header {
+    color: #aba398 !important; }
+  .overflow_black-theme section:nth-of-type(4) .fade-wrap .bar {
+    background: #039aa0 !important; }
+
+.overflow_black-theme section:nth-of-type(5) {
+  background: #1e212a !important;
+  color: #aba398 !important; }
+  .overflow_black-theme section:nth-of-type(5) .svgcolor-light path {
+    fill: #181a1b !important; }
+  .overflow_black-theme section:nth-of-type(5) .header {
+    color: #aba398 !important; }
+  .overflow_black-theme section:nth-of-type(5) .header-bar {
+    background: #181a1b !important; }
+  .overflow_black-theme section:nth-of-type(5) .highlight {
+    color: #0d9aa2 !important; }
+  .overflow_black-theme section:nth-of-type(5) .fade-wrap .bar {
+    background: #039aa0 !important; }
+  .overflow_black-theme section:nth-of-type(5) form input,
+  .overflow_black-theme section:nth-of-type(5) form textarea {
+    color: #e8e6e3 !important;
+    background: #181d23 !important; }
+  .overflow_black-theme section:nth-of-type(5) form .button {
+    color: #aba398 !important;
+    border-color: #303436 !important; }
+    .overflow_black-theme section:nth-of-type(5) form .button:hover {
+      background: #068e94 !important; }
+
+.overflow_black-theme footer {
+  background: #161d26 !important; }
+  .overflow_black-theme footer .page-link {
+    background: #b61657 !important; }
+  .overflow_black-theme footer a .icon {
+    background: #262f38 !important; }
+    .overflow_black-theme footer a .icon .mdi {
+      color: #e8e6e3 !important; }
+    .overflow_black-theme footer a .icon:hover {
+      background: #039ba1 !important; }
+
+.overflow_black-theme .modal-wrap .info-box {
+  background: #181a1b !important;
+  color: #aba398 !important; }
+  .overflow_black-theme .modal-wrap .info-box .button {
+    color: #aba398 !important;
+    background: #e31b6d !important; }
+
 @-webkit-keyframes fadeIn {
   100% {
     opacity: 1; } }
@@ -388,6 +492,13 @@ nav {
     margin: auto 0;
     position: absolute;
     right: 5vw;
+    top: 0; }
+  nav .mdi-lightbulb {
+    font-size: 30pt;
+    line-height: 36pt;
+    margin: auto 0;
+    position: absolute;
+    right: 15vw;
     top: 0; }
   nav .active {
     color: #e31b6d; }

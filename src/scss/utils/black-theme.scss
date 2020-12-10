@@ -1,0 +1,198 @@
+.overflow_black-theme {
+    * {
+        transition: all 0.4s linear;
+    }
+
+    section:nth-of-type(1) {
+        .flex {
+            .text {
+                color: rgb(232, 230, 227) !important;
+
+                .highlight {
+                    color: #e7337c !important;
+                }
+            }
+
+            .button {
+                border-color: rgb(48, 52, 54) !important;
+
+                &:hover {
+                    background: #039ba1 !important;
+                }
+            }
+        }
+
+        nav {
+            background: #161d26 !important;
+            color: rgb(232, 230, 227) !important;
+
+            .page-link {
+                &:hover {
+                    color: rgb(231, 51, 124) !important;
+                }
+            }
+
+            .active {
+                color: rgb(231, 51, 124) !important;
+            }
+
+            .mdi-lightbulb {
+                color: rgb(213, 130, 7) !important;
+            }
+        }
+    }
+
+    section:nth-of-type(2) {
+        background: #181a1b !important;
+        color: rgb(171, 163, 152) !important;
+
+        .header {
+            color: rgb(171, 163, 152) !important;
+        }
+
+        .waypoint {
+            .flex {
+                background: rgb(34, 36, 38) !important;
+
+                .bar {
+                    background: rgb(0, 129, 134) !important;
+                }
+
+                .fill {
+                    .tag {
+                        color: rgb(232, 230, 227) !important;
+                        background: rgb(3, 155, 161) !important;
+                    }
+                }
+
+                span {
+                    color: rgb(171, 163, 152) !important;
+                }
+            }
+        }
+    }
+
+    section:nth-of-type(3) {
+        background: #1e2021 !important;
+        color: rgb(171, 163, 152) !important;
+
+        .header {
+            color: rgb(171, 163, 152) !important;
+        }
+
+        .mix {
+            .bold {
+                color: rgb(209, 205, 199) !important;
+            }
+
+            .highlight {
+                color: rgb(231, 51, 124) !important;
+            }
+
+            .button {
+                color: rgb(171, 163, 152) !important;
+                border: 2px solid #e31b6d !important;
+
+                &:hover {
+                    background: #e31b6d !important;
+                    color: rgb(232, 230, 227) !important;
+                }
+            }
+        }
+    }
+
+    section:nth-of-type(4) {
+        background: #181a1b !important;
+        color: rgb(171, 163, 152) !important;
+
+        .header {
+            color: rgb(171, 163, 152) !important;
+        }
+
+        .fade-wrap {
+            .bar {
+                background: #039aa0 !important;
+            }
+        }
+    }
+
+    section:nth-of-type(5) {
+        background: #1e212a !important;
+        color: rgb(171, 163, 152) !important;
+
+        .svgcolor-light {
+            path {
+                fill: #181a1b !important;
+            }
+        }
+
+        .header {
+            color: rgb(171, 163, 152) !important;
+        }
+
+        .header-bar {
+            background: #181a1b !important;
+        }
+
+        .highlight {
+            color: #0d9aa2 !important;
+        }
+
+        .fade-wrap {
+            .bar {
+                background: #039aa0 !important;
+            }
+        }
+
+        form {
+            input,
+            textarea {
+                color: rgb(232, 230, 227) !important;
+                background: rgb(24, 29, 35) !important;
+            }
+
+            .button {
+                color: rgb(171, 163, 152) !important;
+                border-color: rgb(48, 52, 54) !important;
+
+                &:hover {
+                    background: #068e94 !important;
+                }
+            }
+        }
+    }
+
+    footer {
+        background: #161d26 !important;
+
+        .page-link {
+            background: #b61657 !important;
+        }
+
+        a {
+            .icon {
+                background: #262f38 !important;
+
+                .mdi {
+                    color: rgb(232, 230, 227) !important;
+                }
+
+                &:hover {
+                    background: #039ba1 !important;
+                }
+            }
+        }
+    }
+
+    .modal-wrap {
+        .info-box {
+            background: rgb(24, 26, 27) !important;
+            color: rgb(171, 163, 152) !important;
+
+            .button {
+                color: rgb(171, 163, 152) !important;
+                background: #e31b6d !important;
+            }
+        }
+    }
+}

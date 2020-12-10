@@ -77,6 +77,15 @@ $(function () {
         }, 500);
     });
 
+    // Toggle theme white/black
+    const toggleTheme = document.querySelector(".mdi-lightbulb");
+
+    const overflowWrap = document.querySelector(".overflow-wrap");
+
+    toggleTheme.addEventListener("click", () => {
+        overflowWrap.classList.toggle("overflow_black-theme");
+    });
+
     function highlightLink(anchor) {
         $("nav .active").removeClass("active");
         $("nav")

@@ -4,6 +4,8 @@
 
 @import "./utils/fonts.scss";
 
+@import "./utils/black-theme.scss";
+
 @keyframes fadeIn {
     100% {
         opacity: 1;
@@ -318,6 +320,15 @@ nav {
         margin: auto 0;
         position: absolute;
         right: 5vw;
+        top: 0;
+    }
+
+    .mdi-lightbulb {
+        font-size: 30pt;
+        line-height: 36pt;
+        margin: auto 0;
+        position: absolute;
+        right: 15vw;
         top: 0;
     }
 
