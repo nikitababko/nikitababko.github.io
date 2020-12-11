@@ -118,6 +118,139 @@
     color: #aba398 !important;
     background: #e31b6d !important; }
 
+section:nth-of-type(1) .flex .text {
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear; }
+  section:nth-of-type(1) .flex .text .highlight {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+
+section:nth-of-type(1) .flex .button {
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear; }
+  section:nth-of-type(1) .flex .button:hover {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+
+section:nth-of-type(1) nav {
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear; }
+  section:nth-of-type(1) nav .page-link:hover {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+  section:nth-of-type(1) nav .active {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+  section:nth-of-type(1) nav .mdi-lightbulb {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+
+section:nth-of-type(2) {
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear; }
+  section:nth-of-type(2) .header {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+  section:nth-of-type(2) .bullet-wrap .hex-wrap .hexagon {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+    section:nth-of-type(2) .bullet-wrap .hex-wrap .hexagon .mdi {
+      -webkit-transition: all 0.5s linear;
+      transition: all 0.5s linear; }
+  section:nth-of-type(2) .waypoint .flex {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+    section:nth-of-type(2) .waypoint .flex .bar {
+      -webkit-transition: all 0.5s linear;
+      transition: all 0.5s linear; }
+    section:nth-of-type(2) .waypoint .flex .fill .tag {
+      -webkit-transition: all 0.5s linear;
+      transition: all 0.5s linear; }
+    section:nth-of-type(2) .waypoint .flex span {
+      -webkit-transition: all 0.5s linear;
+      transition: all 0.5s linear; }
+
+section:nth-of-type(3) {
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear; }
+  section:nth-of-type(3) .header {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+  section:nth-of-type(3) .mix .bold {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+  section:nth-of-type(3) .mix .highlight {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+  section:nth-of-type(3) .mix .button {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+    section:nth-of-type(3) .mix .button:hover {
+      -webkit-transition: all 0.5s linear;
+      transition: all 0.5s linear; }
+
+section:nth-of-type(4) {
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear; }
+  section:nth-of-type(4) .header {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+  section:nth-of-type(4) .fade-wrap .bar {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+
+section:nth-of-type(5) {
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear; }
+  section:nth-of-type(5) .svgcolor-light path {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+  section:nth-of-type(5) .header {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+  section:nth-of-type(5) .header-bar {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+  section:nth-of-type(5) .highlight {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+  section:nth-of-type(5) .fade-wrap .bar {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+  section:nth-of-type(5) form input,
+  section:nth-of-type(5) form textarea {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+  section:nth-of-type(5) form .button {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+    section:nth-of-type(5) form .button:hover {
+      -webkit-transition: all 0.5s linear;
+      transition: all 0.5s linear; }
+
+footer {
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear; }
+  footer .page-link {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+  footer a .icon {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+    footer a .icon .mdi {
+      -webkit-transition: all 0.5s linear;
+      transition: all 0.5s linear; }
+    footer a .icon:hover {
+      -webkit-transition: all 0.5s linear;
+      transition: all 0.5s linear; }
+
+.modal-wrap .info-box {
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear; }
+  .modal-wrap .info-box .button {
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear; }
+
 @-webkit-keyframes fadeIn {
   100% {
     opacity: 1; } }
@@ -497,14 +630,63 @@ nav {
     position: absolute;
     right: 5vw;
     top: 0; }
-  nav .mdi-lightbulb {
-    font-size: 30pt;
-    line-height: 36pt;
-    margin: auto 0;
+  nav .toggle-theme-wrapper {
     position: absolute;
     right: 15vw;
-    top: 0;
-    cursor: pointer !important; }
+    top: 12px; }
+    nav .toggle-theme-wrapper * {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+    nav .toggle-theme-wrapper .label {
+      background-color: #111;
+      border-radius: 50px;
+      cursor: pointer;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      padding: 5px;
+      position: relative;
+      height: 26px;
+      width: 50px;
+      -webkit-transform: scale(1.5);
+              transform: scale(1.5); }
+      nav .toggle-theme-wrapper .label .mdi:nth-child(1) {
+        position: absolute;
+        left: 1px;
+        color: #f1c40f; }
+      nav .toggle-theme-wrapper .label .mdi:nth-child(2) {
+        position: absolute;
+        right: 0;
+        color: #f39c12; }
+    nav .toggle-theme-wrapper .checkbox {
+      opacity: 0;
+      position: absolute; }
+    nav .toggle-theme-wrapper .label .ball {
+      background-color: #f39c12;
+      border-radius: 50%;
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      height: 22px;
+      width: 22px;
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+      -webkit-transition: -webkit-transform 0.5s linear;
+      transition: -webkit-transform 0.5s linear;
+      transition: transform 0.5s linear;
+      transition: transform 0.5s linear, -webkit-transform 0.5s linear; }
+    nav .toggle-theme-wrapper .checkbox:checked + .label .ball {
+      -webkit-transform: translateX(24px);
+              transform: translateX(24px);
+      background: #f1c40f;
+      -webkit-transition: all 0.5s linear;
+      transition: all 0.5s linear; }
   nav .active {
     color: #e31b6d; }
 

@@ -208,3 +208,197 @@
         }
     }
 }
+
+// Transition for toggle theme
+section:nth-of-type(1) {
+    .flex {
+        .text {
+            transition: all 0.5s linear;
+
+            .highlight {
+                transition: all 0.5s linear;
+            }
+        }
+
+        .button {
+            transition: all 0.5s linear;
+
+            &:hover {
+                transition: all 0.5s linear;
+            }
+        }
+    }
+
+    nav {
+        transition: all 0.5s linear;
+
+        .page-link {
+            &:hover {
+                transition: all 0.5s linear;
+            }
+        }
+
+        .active {
+            transition: all 0.5s linear;
+        }
+
+        .mdi-lightbulb {
+            transition: all 0.5s linear;
+        }
+    }
+}
+
+section:nth-of-type(2) {
+    transition: all 0.5s linear;
+
+    .header {
+        transition: all 0.5s linear;
+    }
+
+    .bullet-wrap {
+        .hex-wrap {
+            .hexagon {
+                transition: all 0.5s linear;
+
+                .mdi {
+                    transition: all 0.5s linear;
+                }
+            }
+        }
+    }
+
+    .waypoint {
+        .flex {
+            transition: all 0.5s linear;
+
+            .bar {
+                transition: all 0.5s linear;
+            }
+
+            .fill {
+                .tag {
+                    transition: all 0.5s linear;
+                }
+            }
+
+            span {
+                transition: all 0.5s linear;
+            }
+        }
+    }
+}
+
+section:nth-of-type(3) {
+    transition: all 0.5s linear;
+
+    .header {
+        transition: all 0.5s linear;
+    }
+
+    .mix {
+        .bold {
+            transition: all 0.5s linear;
+        }
+
+        .highlight {
+            transition: all 0.5s linear;
+        }
+
+        .button {
+            transition: all 0.5s linear;
+
+            &:hover {
+                transition: all 0.5s linear;
+            }
+        }
+    }
+}
+
+section:nth-of-type(4) {
+    transition: all 0.5s linear;
+
+    .header {
+        transition: all 0.5s linear;
+    }
+
+    .fade-wrap {
+        .bar {
+            transition: all 0.5s linear;
+        }
+    }
+}
+
+section:nth-of-type(5) {
+    transition: all 0.5s linear;
+
+    .svgcolor-light {
+        path {
+            transition: all 0.5s linear;
+        }
+    }
+
+    .header {
+        transition: all 0.5s linear;
+    }
+
+    .header-bar {
+        transition: all 0.5s linear;
+    }
+
+    .highlight {
+        transition: all 0.5s linear;
+    }
+
+    .fade-wrap {
+        .bar {
+            transition: all 0.5s linear;
+        }
+    }
+
+    form {
+        input,
+        textarea {
+            transition: all 0.5s linear;
+        }
+
+        .button {
+            transition: all 0.5s linear;
+
+            &:hover {
+                transition: all 0.5s linear;
+            }
+        }
+    }
+}
+
+footer {
+    transition: all 0.5s linear;
+
+    .page-link {
+        transition: all 0.5s linear;
+    }
+
+    a {
+        .icon {
+            transition: all 0.5s linear;
+
+            .mdi {
+                transition: all 0.5s linear;
+            }
+
+            &:hover {
+                transition: all 0.5s linear;
+            }
+        }
+    }
+}
+// Modal for project
+.modal-wrap {
+    .info-box {
+        transition: all 0.5s linear;
+
+        .button {
+            transition: all 0.5s linear;
+        }
+    }
+}

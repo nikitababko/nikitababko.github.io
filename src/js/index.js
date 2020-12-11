@@ -78,14 +78,13 @@ $(function () {
     });
 
     // Toggle theme white/black
-    const toggleTheme = document.querySelector(".mdi-lightbulb");
+    const chk = document.getElementById("chk");
 
-    const overflowWrap = document.querySelector(".overflow-wrap");
-
-    toggleTheme.addEventListener("click", () => {
-        overflowWrap.classList.toggle("overflow_black-theme");
+    chk.addEventListener("change", () => {
+        document.body.classList.toggle("overflow_black-theme");
     });
 
+    // Active
     function highlightLink(anchor) {
         $("nav .active").removeClass("active");
         $("nav")
