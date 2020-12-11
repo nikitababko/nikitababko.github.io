@@ -325,10 +325,6 @@ nav {
 
     // Checkbox for change theme
     .toggle-theme-wrapper {
-        position: absolute;
-        right: 15vw;
-        top: 12px;
-
         * {
             box-sizing: border-box;
         }
@@ -1110,6 +1106,14 @@ footer {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .toggle-theme-wrapper {
+        position: absolute !important;
+        left: 5vw !important;
+        top: 12px !important;
+    }
+}
+
 @media screen and (min-width: 600px) {
     body {
         font-size: 12pt;
@@ -1204,6 +1208,12 @@ footer {
 
         .mdi-menu {
             display: none;
+        }
+
+        .toggle-theme-wrapper {
+            position: absolute !important;
+            right: 5vw !important;
+            top: 12px !important;
         }
     }
 
