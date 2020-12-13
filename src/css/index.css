@@ -81,7 +81,8 @@
   background: #1e212a !important;
   color: #aba398 !important; }
   .overflow_black-theme section:nth-of-type(5) .svgcolor-light path {
-    fill: #181a1b !important; }
+    fill: #181a1b !important;
+    stroke: #181a1b !important; }
   .overflow_black-theme section:nth-of-type(5) .header {
     color: #aba398 !important; }
   .overflow_black-theme section:nth-of-type(5) .header-bar {
