@@ -10,10 +10,6 @@
   font-family: "Raleway-bold";
   src: url("../fonts/Raleway-Bold.ttf"); }
 
-.overflow_black-theme * {
-  -webkit-transition: all 0.4s linear;
-  transition: all 0.4s linear; }
-
 .overflow_black-theme section:nth-of-type(1) .flex .text {
   color: #e8e6e3 !important; }
   .overflow_black-theme section:nth-of-type(1) .flex .text .highlight {
