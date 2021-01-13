@@ -1,13 +1,16 @@
 @font-face {
   font-family: "Raleway";
+  font-display: swap;
   src: url("../fonts/Raleway-Regular.ttf"); }
 
 @font-face {
   font-family: "Raleway-semibold";
+  font-display: swap;
   src: url("../fonts/Raleway-SemiBold.ttf"); }
 
 @font-face {
   font-family: "Raleway-bold";
+  font-display: swap;
   src: url("../fonts/Raleway-Bold.ttf"); }
 
 .overflow_black-theme section:nth-of-type(1) .flex .text {
