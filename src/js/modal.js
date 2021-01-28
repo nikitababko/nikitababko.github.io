@@ -26,38 +26,43 @@ $(document).ready(function () {
             title: "MoGO",
             tag: "BUSINESS ANALYTICS.",
             detail:
-                "The layout was made for the site - business analyst. Each of us must have heard the same question from our parents or friends not from the “programmer community”: “What are you doing there at your work?”. Usually, after an attempt to answer, an unchanging comment follows: 'Oh, you programmer, you can't even fix a refrigerator.' What can we say about business analysts who cannot really explain to their colleagues what they are doing. I myself often hear this question from my father, but I still can't find the right answer. And the truth is, what we do at work - we analyze!.",
-            link: "https://nikitababko.github.io/landing-page___mogo___-HARD-/",
+                "In digital marketing, a landing page is a standalone web page, created specifically for a marketing or advertising campaign. It’s where a visitor “lands” after they click on a link in an email, or ads from Google, Bing, YouTube, Facebook, Instagram, Twitter, or similar places on the web.",
+            link: "https://nikitababko.github.io/landing-page-mogo/",
         },
-        pex: {
-            title: "Pex",
-            tag: "DESIGN YOUR EYEBALLS WILL THANK YOU FOR.",
-            detail: "Landing page.",
-            link: "https://nikitababko.github.io/landing-page___pex___-LIGHT-/",
+        netlife: {
+            title: "NetLife",
+            tag: "Social, network, social network.",
+            detail:
+                "Social network. There is an opportunity to subscribe to someone, share posts (photo, description). There is a completely anonymous chat. In the chat, you can transfer text, photos and emoticons.",
+            link: "https://github.com/nikitababko/social-network-netlife",
         },
         eclipse: {
             title: "Eclipse",
             tag: "DESIGN.",
-            detail: "Very nice layout. The designer clearly had a hand in it.",
-            link: "https://nikitababko.github.io/landing-page___eclipse___-LIGHT-/",
+            detail:
+                "In digital marketing, a landing page is a standalone web page, created specifically for a marketing or advertising campaign. It’s where a visitor “lands” after they click on a link in an email, or ads from Google, Bing, YouTube, Facebook, Instagram, Twitter, or similar places on the web.",
+            link: "https://nikitababko.github.io/landing-page-eclipse/",
         },
-        axit: {
-            title: "Axit",
-            tag: "DESIGN.",
-            detail: "Landing page.",
-            link: "https://nikitababko.github.io/landing-page___axit___-MIDDLE-/",
+        todocloud: {
+            title: "Todo Cloud",
+            tag: "todo, app.",
+            detail:
+                "Todo Cloud gives you the confidence that everything’s organized and accounted for, so you can make progress on the things that are important to you. Get a clear overview of everything on your plate and never lose track of an important task. Easily organize and prioritize your tasks and projects so you’ll always know exactly what to work on next.",
+            link: "https://github.com/nikitababko/todo-app-todocloud",
         },
         activebox: {
             title: "Active Box",
             tag: "LANDING PAGE.",
-            detail: "Landing page.",
-            link: "https://nikitababko.github.io/landing-page___active-box___-MIDDLE-/",
+            detail:
+                "In digital marketing, a landing page is a standalone web page, created specifically for a marketing or advertising campaign. It’s where a visitor “lands” after they click on a link in an email, or ads from Google, Bing, YouTube, Facebook, Instagram, Twitter, or similar places on the web.",
+            link: "https://nikitababko.github.io/landing-page-active-box/",
         },
-        goldenpage: {
-            title: "Golden page",
+        bouncy: {
+            title: "Bouncy",
             tag: "LANDING PAGE.",
-            detail: "Landing page.",
-            link: "https://nikitababko.github.io/landing-page___golden-page___-LIGHT-/",
+            detail:
+                "In digital marketing, a landing page is a standalone web page, created specifically for a marketing or advertising campaign. It’s where a visitor “lands” after they click on a link in an email, or ads from Google, Bing, YouTube, Facebook, Instagram, Twitter, or similar places on the web.",
+            link: "https://nikitababko.github.io/landing-page-bouncy/",
         },
     };
 
