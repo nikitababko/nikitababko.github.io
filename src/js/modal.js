@@ -13,7 +13,7 @@ $(document).ready(function () {
             tag: "MESSENGER.",
             detail:
                 "This is a service for exchanging instant messages, links, pictures and other information. This messenger is similar to many others, but with its own characteristics. He knows how to attach media files to messages, is anonymous. The correspondence can be diversified with emoticons and voice messages..",
-            link: "https://github.com/nikitababko/chat",
+            link: "https://github.com/nikitababko/messenger",
         },
         tictactoe: {
             title: "Tic tac tore",
