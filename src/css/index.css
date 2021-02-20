@@ -453,7 +453,7 @@ a {
 
 body {
   color: #fff;
-  font-family: "Raleway";
+  font-family: 'Raleway', 'Arial', sans-serif;
   font-size: 8pt;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -498,7 +498,7 @@ body {
     vertical-align: middle; }
 
 .bold {
-  font-family: "Raleway-bold"; }
+  font-family: 'Raleway-bold', 'Arial', sans-serif; }
 
 .flex {
   -webkit-box-align: center;
@@ -538,7 +538,7 @@ body {
 
 .hexagon:before {
   background-color: inherit;
-  content: "";
+  content: '';
   height: inherit;
   position: absolute;
   right: calc((100% / 2) - ((100% * 0.57735) / 2));
@@ -549,7 +549,7 @@ body {
 
 .hexagon:after {
   background-color: inherit;
-  content: "";
+  content: '';
   height: inherit;
   position: absolute;
   right: calc((100% / 2) - ((100% * 0.57735) / 2));
@@ -563,7 +563,7 @@ body {
 
 .header {
   color: #444649;
-  font-family: "raleway-bold";
+  font-family: 'raleway-bold', 'Arial', sans-serif;
   font-size: 25pt;
   position: relative;
   position: relative; }
@@ -787,14 +787,14 @@ nav {
     color: #444;
     padding: 15px 10px 85px 10px; }
   .modal-wrap .title {
-    font-family: "Raleway-bold";
+    font-family: 'Raleway-bold', 'Arial', sans-serif;
     font-size: 16pt;
     line-height: 20pt; }
   .modal-wrap .tag {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     color: #c0c0c0;
     display: block;
-    font-family: "Raleway-bold";
+    font-family: 'Raleway-bold', 'Arial', sans-serif;
     font-size: 8pt;
     font-weight: 300;
     padding-bottom: 15px; }
@@ -856,7 +856,7 @@ section {
     height: calc(100vh + 53px);
     padding: 0 10px; }
     section:nth-of-type(1) .highlight {
-      font-family: "Raleway-semibold"; }
+      font-family: 'Raleway-semibold', 'Arial', sans-serif; }
     section:nth-of-type(1) .text {
       font-size: 16pt;
       line-height: 20pt;
@@ -1159,7 +1159,7 @@ section {
       height: 150px;
       margin: 0 0 15px 0; }
     section:nth-of-type(4) .date {
-      font-family: "Open sans";
+      font-family: 'Open sans', 'Arial', sans-serif;
       font-size: 7pt;
       margin: 5px 0 0 0; }
     section:nth-of-type(4) .bar {
@@ -1191,8 +1191,8 @@ section {
     section:nth-of-type(5) form {
       margin: 40px auto 0 auto;
       min-width: 95%; }
-    section:nth-of-type(5) input[type="text"],
-    section:nth-of-type(5) input[type="email"],
+    section:nth-of-type(5) input[type='text'],
+    section:nth-of-type(5) input[type='email'],
     section:nth-of-type(5) textarea {
       background: #1e242c;
       border: 0;
@@ -1301,7 +1301,7 @@ footer {
     font-weight: bold; }
     footer .footnote .highlight {
       color: #e31b6d;
-      font-family: "Open Sans"; }
+      font-family: 'Open Sans', 'Arial', sans-serif; }
 
 @media screen and (max-width: 400px) {
   section:nth-of-type(3) #gallery .mix .card {
