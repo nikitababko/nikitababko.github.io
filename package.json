@@ -5,7 +5,7 @@
     "email": "niki.babko@gmail.com"
   },
   "homepage": "https://nikitababko.github.io",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "build": "gulp build",
     "deploy": "rm -r build && npm run build && gh-pages -d build",
     "prepare": "husky install",
-    "pre:commit": "yarn pre:patch && yarn build",
+    "pre:commit": "yarn pre:patch && yarn build && yarn deploy",
     "pre:patch": "npm --no-git-tag-version version patch"
   },
   "keywords": [],
