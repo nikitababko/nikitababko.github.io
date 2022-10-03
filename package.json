@@ -5,7 +5,7 @@
     "email": "niki.babko@gmail.com"
   },
   "homepage": "https://nikitababko.github.io",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
